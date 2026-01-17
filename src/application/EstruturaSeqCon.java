@@ -13,10 +13,10 @@ public class EstruturaSeqCon {
 		double valorHora, salarioBruto, imposto, salarioLiquido;
 		int horasTrabalhadas;
 		
-		System.out.print("Digite o valor das horas trabalhadas");
+		System.out.print("Digite o valor das horas trabalhadas:");
 		valorHora = sc.nextDouble();
 		
-		System.out.println("Digite o número de horas trabalhadas no mês");
+		System.out.println("Digite o número de horas trabalhadas no mês:");
 		horasTrabalhadas = sc.nextInt();
 		
 		salarioBruto = valorHora * horasTrabalhadas;
